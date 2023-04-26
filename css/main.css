@@ -1,8 +1,239 @@
-p {
-    background-color: tan;
+ body { 
+    background-color: black;
+    width: 100%;
+    color: #ffffff;
+
+ }
+
+ body h3 {
+
+ }
+ p {
+    
     font-size: 20px;
     padding: 50px;
 }
 ul {
     list-style-type: circle;
+}
+h2 {
+    
+    color: #ffffff; 
+    text-align: center;
+   
+}
+
+ul .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #e18848;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+  }
+  
+  a:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  li:hover {
+    border-color: #333;
+    transform: scale(1.1);
+  }
+  
+  li:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: #333;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+  }
+  
+  li:hover:before {
+    transform: translate(-50%, -50%) scale(3);
+  }
+  sform: scale(1.1);
+  
+  
+
+
+.contacto_color p {
+    
+    color: #f4efef;
+    font-size: 20px;
+    padding: 50px;
+    font-family: arial;
+}
+
+.sobre_empresa p {
+    
+    color: #ffffff; 
+    font-size: 20px;
+    padding: 50px;
+
+}
+
+.clientes_empresa p {
+    color: #f4efef;
+    
+}
+
+.home_video video {
+    object-fit: fill;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+
+
+.home_video {
+   
+    height: auto;
+    position:relative;
+    display: block;
+    
+}
+
+.logos_container {
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+       
+
+}
+
+.client_logo {
+    width: 30%;
+    display: inline-block;
+    
+
+}
+
+.client_logo img {
+    margin: 0 auto;
+}
+    
+.service_details {
+    width: 30%;
+    display: inline-block;
+    display: table-cell;
+    text-align: left;
+}
+
+.services_container {
+    padding: 0 9%;
+    display: table;
+}
+
+.service_details h3 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 4px; 
+    text-decoration-color: chocolate;
+    line-height: 1.5;
+    font-family: Arial; 
+    text-underline-offset: 15px;
+    font-size: 25px;
+   
+}
+.form_element {
+    width: 90%;
+    left: auto;
+    right: auto;
+    float: left;
+    transition: 3s;
+    padding: 5%;
+    margin-left: auto;
+    border-radius: 4px;
+    text-align: center;
+ 
+} 
+
+.form_element[type="text" name="name"] textarea {
+    width: 400px;
+    height: 200px;
+  
+
+}
+    
+    }
+.button {
+    text-align:center;
+    display:center;
+    width:100%;
+    padding:30px;
+    font-size:20px;
+    border-radius:15px 50px 30px 5px;
+    
+}
+
+  
+
+
+.information_contact {
+    vertical-align: center;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.photographies {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 4px; 
+    text-decoration-color: chocolate;
+    line-height: 1.5;
+    font-family: Arial; 
+    text-underline-offset: 15px;
+    font-size: 25px;
+}
+
+.videos {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 4px; 
+    text-decoration-color: chocolate;
+    line-height: 1.5;
+    font-family: Arial; 
+    text-underline-offset: 15px;
+    font-size: 25px;
+}
+
+.information_aboutme {
+    text-align: left;
+    font-family: Arial;
+    padding: 0 9%;
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    
+
+}
+
+.contact_background {
+    background: url("../Images/pcontact.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
