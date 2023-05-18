@@ -21,66 +21,86 @@
     
 </head>
 <body> 
+
     <div class="contact_background">
         <img src="../Images/portada2.png" alt="Logotipo." width="1400" height="250">
+
+
+        <nav class="menu">
+            <ul>
+                <li class="menu_pill"><a href="../Index.html">Home</a></li>
+                <li class="menu_pill"><a href="about-us.html">Sobre la empresa</a></li>
+                <li class="menu_pill"><a href="contact.html">Contacto</a></li>
+                <li class="menu_pill"><a href="clientes.html">Clientes</a></li>
+                <li class="menu_pill"><a href="servicios.html">Servicios</a></li>
+            </ul>
+       
+        </nav>
+
+
+
+
+
+
     
    <!-- #include virtual="menu.html" -->
-   <a href="../Index.html">Home</a>
-   <a href="about-us.html">About us</a>
+   
 
-   <a href="contact.html">- Contacto</a>
-   <a href="clientes.html">-Clientes</a>
-   <a href="servicios.html">-Servicios</a>
-
-   <section class="contacto_color">
+        <section class="contacto_color">
                         
-    <h2 class="contacto_background_color">Para cualquier duda o información, puedes contactar aquí:</h2>
-    </ul>
-</section> 
-<form action="">
+            <h2 class="contacto_background_color">Para cualquier duda o información, puedes contactar aquí:</h2>
+            
+        </section> 
+        <div class="form_container">
+            <form action="mailto:ldeluna.escritos@gmail.com?subject=prueba" method="post" enctype="text/plain">
 
+                
+                <div class="form_element">
+                    <label for="name">Nombre(*)</label>
+                    <input class="input_form" type="text" name="name"> 
+                </div>
+    
+                <div class="form_element">
+                    <label for="email">Email(*)  </label>
+                    <input class="input_form"type="text" name="email">
+                </div>
+    
+                <div class="form_element">
+                    <label for="phone">Teléfono</label>
+                    <input class="input_form"type="text" name="phone">
+                </div>
+    
+    
+                <div class="form_element">
+                    <label for="message">Mensaje(*)</label>
+                    <input class="input_form input_form_message"  type="text" name="message">
+                </div>
+                <div class="form_element">
+                    <button class="button_element" value="submit" type="submit">Enviar</button>
+                </div>
+            </form> 
+        </div>
         
-    <div class="form_element">
+        
+
        
-        <label for="name">Nombre(*)</label>
-        
-     <input type="text" name="name"> 
-    </div>
-    <div class="form_element">
-        <label for="email">Email(*)  </label>
-     <input type="text" name="email">
-    </div>
-    <div class="form_element">
-        <label for="phone">Teléfono</label>
-     <input type="text" name="phone">
-    </div>
-    <div>
-    <div class="form_element">
-        <label for="message">Mensaje(*)</label>
-    <input type="text" name="message">
-    </div>
-
-</form>
-<div>
-    <div class="button">
-        <button type="submit">Enviar</button>
-
-</div>
     
 
-<div>
-    <section class="information_contact">
+
+
         <div>
-                vmarquezzr@gmail.com
+            <section class="information_contact">
+                <div>
+                        vmarquezzr@gmail.com
+                </div>
+                <div>
+                        610 98 30 18
+                </div>
+                <div>
+                        Badajoz, 06010
+                </div>
+                </section>
         </div>
-        <div>
-                610 98 30 18
-        </div>
-        <div>
-                Badajoz, 06010
-        </div>
-         </section>
-</div>
 </body> 
 </html>
 
